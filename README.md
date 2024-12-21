@@ -41,3 +41,7 @@ Loyihaga hissa qo'shmoqchi bo'lsangiz, quyidagilarni bajaring:
 5. issue yuboring
 
 Biz sizning g'oyalaringizni qadrlaymiz! 😄
+
+---
+
+## [O'yin o'ynash](https://jallod.netlify.app)
