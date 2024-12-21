@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jallod</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <script src="js/list.js" defer></script>
-  <script src="js/script.js" defer></script>
-</head>
-<body>
-  <div class="loader">
-    <img src="/images/running_stickman.gif" alt="">
-    <span class="foiz">0%</span>
-  </div>
-  <div class="container">
-    <button class="settings"><i class="fa-solid fa-gear"></i></button>
-    <div class="settings_menu">
-      <div class="toggles">
-        <div class="toggle sound">
-
-          <div class="circle">
-            <i class="fa-solid fa-volume-high"></i>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jallod</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="js/list.js" defer></script>
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="loader">
+            <img src="/images/running_stickman.gif" alt="" />
+            <span class="foiz">0%</span>
         </div>
-        <div class="off toggle music">
-          <div class="circle">
-           <i class="fa-solid fa-music"></i>
-          </div>
+        <div class="container">
+            <button class="settings"><i class="fa-solid fa-gear"></i></button>
+            <div class="settings_menu">
+                <div class="toggles">
+                    <div class="toggle sound">
+                        <div class="circle">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                    </div>
+                    <div class="off toggle music">
+                        <div class="circle">
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                    </div>
+                </div>
+                <button class="invite">
+                    <i class="fa-solid fa-user-group"></i>Do'stingizni taklif
+                    qiling
+                </button>
+                <button class="about">
+                    <i class="fa-solid fa-question"></i>Qo'llanma
+                </button>
+                <a href="tel:+998976051234" class="contact"
+                    ><i class="fa-solid fa-phone"></i>Bog'lanish</a
+                >
+                <a
+                    href="https://t.me/ASulaymonBlogs"
+                    target="_blank"
+                    class="support"
+                    ><i class="fa-solid fa-star"></i>Dasturchi</a
+                >
+            </div>
+            <div class="opening">
+                <h1>Jallod</h1>
+                <img src="/images/character/6.svg" />
+                <button class="btn">Boshlash!</button>
+            </div>
+            <div class="game">
+                <div class="modal">
+                    <div class="content">
+                        <img src="" alt="" />
+                        <h1>O'yin tugadi!</h1>
+                        <h4>To'g'ri so'z <b></b> edi.</h4>
+                        <button class="mbtn replay">Yana o'ynash</button>
+                        <button class="mbtn leave">Chiqish</button>
+                    </div>
+                </div>
+                <button class="add leave">↩</button>
+                <button class="add hint">💡</button>
+                <div class="hint-box">
+                    <h1>yordam</h1>
+                    <p class="hint-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit, nam!
+                    </p>
+                </div>
+                <h3 class="err">Xato: <span class="count">0 / 6</span></h3>
+                <div class="word"></div>
+                <div class="man">
+                    <img src="/images/character/0.svg" alt="" />
+                </div>
+                <div class="keyboard"></div>
+            </div>
         </div>
-      </div>
-      <button class="invite"><i class="fa-solid fa-user-group"></i>Do'stingizni taklif qiling</button>
-      <button class="about"><i class="fa-solid fa-question"></i>Qo'llanma</button>
-      <a href="tel:+998976051234" class="contact"><i class="fa-solid fa-phone"></i>Bog'lanish</a>
-      <a href="https://t.me/ASulaymonBlogs" target="_blank" class="support"><i class="fa-solid fa-star"></i>Dasturchi</a>
-    </div>
-    <div class="opening">
-      <h1>Jallod</h1>
-      <img src="/images/character/6.svg"/>
-      <button class="btn">Boshlash!</button>
-    </div>
-    <div class="game">
-      <div class="modal">
-        <div class="content">
-          <img src="" alt="">
-          <h1>O'yin tugadi!</h1>
-          <h4>To'g'ri so'z <b></b> edi.</h4>
-          <button class="mbtn replay">Yana o'ynash</button>
-          <button class="mbtn leave">Chiqish</button>
-        </div>
-      </div>
-      <button class="add leave">↩</button>
-      <button class="add hint">💡</button>
-      <div class="hint-box">
-          <h1>yordam</h1>
-          <p class="hint-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nam!</p>
-      </div>
-      <h3 class="err">Xato: <span class="count">0 / 6</span></h3>
-      <div class="word"></div>
-      <div class="man">
-        <img src="/images/character/0.svg" alt="" />
-      </div>
-      <div class="keyboard"></div> 
-    </div>
-  </div>
-</body>
-<script src="https://kit.fontawesome.com/4e53563d8d.js" crossorigin="anonymous"></script>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/4e53563d8d.js"
+        crossorigin="anonymous"
+    ></script>
 </html>

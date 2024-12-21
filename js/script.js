@@ -168,6 +168,9 @@ for (let i = 65; i <= 90; i++) {
             }
         });
     };
+    if(modal.classList == "active"){
+        keypress()
+    }
     btn.addEventListener("click", keypress);
 }
 RandomWord();
