@@ -21,7 +21,7 @@ const btn = document.querySelector(".btn"),
     toggle = document.querySelectorAll(".toggle"),
     sounds = document.querySelector(".sound"),
     music = document.querySelector(".music"),
-replayBtn = document.querySelector(".replay");
+    replayBtn = document.querySelector(".replay");
 
 const background = new Audio("/sounds/Music.mp3"),
     correctSound = new Audio("/sounds/correct.mp3"),
@@ -168,8 +168,8 @@ for (let i = 65; i <= 90; i++) {
             }
         });
     };
-    if(modal.classList == "active"){
-        keypress()
+    if (modal.classList == "active") {
+        keypress();
     }
     btn.addEventListener("click", keypress);
 }
@@ -198,7 +198,7 @@ about.addEventListener("click", () => {
     alert("bu funksiya vaqtincha ishlamayapti.");
 });
 
-toggle.forEach((e) =>{
+toggle.forEach((e) => {
     e.addEventListener("click", () => {
         button.play();
         if (e.classList.contains("off")) {
@@ -207,17 +207,17 @@ toggle.forEach((e) =>{
             e.classList.add("off");
         }
     });
-})
+});
 
-sounds.addEventListener("click", () =>{
-    if(sounds.classList.contains("off")){
-        wrong.muted =!wrong.muted;
-        enter.muted =!enter.muted;
-        fail.muted =!fail.muted;
-        win.muted =!win.muted;
-        button.muted =!button.muted;
-        correctSound.muted =!correctSound.muted;
-    }else{
+sounds.addEventListener("click", () => {
+    if (sounds.classList.contains("off")) {
+        wrong.muted = !wrong.muted;
+        enter.muted = !enter.muted;
+        fail.muted = !fail.muted;
+        win.muted = !win.muted;
+        button.muted = !button.muted;
+        correctSound.muted = !correctSound.muted;
+    } else {
         wrong.muted = false;
         enter.muted = false;
         fail.muted = false;
@@ -225,19 +225,19 @@ sounds.addEventListener("click", () =>{
         button.muted = false;
         correctSound.muted = false;
     }
-})
+});
 
-music.addEventListener("click", () =>{
+music.addEventListener("click", () => {
     if (music.classList.contains("off")) {
-        background.pause()
-    }else{
-        background.play()
-        background.volume = 0.3
+        background.pause();
+    } else {
+        background.play();
+        background.volume = 0.3;
     }
-})
+});
 
-document.addEventListener("keydown", (e) =>{
-    if(e.key === AltKey){
-        win.play()
+document.addEventListener("keydown", (e) => {
+    if (e.key === AltKey) {
+        win.play();
     }
-})
+});

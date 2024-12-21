@@ -1,290 +1,290 @@
 const words = [
     {
         word: "OLMA",
-        hint: "Shirin, sersuv meva"
+        hint: "Shirin, sersuv meva",
     },
     {
         word: "SHIRINLIK",
-        hint: "Dessert turi"
+        hint: "Dessert turi",
     },
     {
         word: "KUN",
-        hint: "24 soatdan iborat vaqt birligi"
+        hint: "24 soatdan iborat vaqt birligi",
     },
     {
         word: "TUN",
-        hint: "Kunlik tsiklning kechki qismi"
+        hint: "Kunlik tsiklning kechki qismi",
     },
     {
         word: "YIL",
-        hint: "365 kun"
+        hint: "365 kun",
     },
     {
         word: "MUZ",
-        hint: "Suvning qattiq shakli"
+        hint: "Suvning qattiq shakli",
     },
     {
         word: "KITOB",
-        hint: "Ta'lim manbai"
+        hint: "Ta'lim manbai",
     },
     {
         word: "QALAM",
-        hint: "Yozish uchun asbob"
+        hint: "Yozish uchun asbob",
     },
     {
         word: "ISH",
-        hint: "Mehnat natijasi"
+        hint: "Mehnat natijasi",
     },
     {
         word: "UY",
-        hint: "Yashash uchun joy"
+        hint: "Yashash uchun joy",
     },
     {
         word: "SUV",
-        hint: "Hayot manbai"
+        hint: "Hayot manbai",
     },
     {
         word: "DAFTAR",
-        hint: "Yozuv uchun o'quv quroli"
+        hint: "Yozuv uchun o'quv quroli",
     },
     {
         word: "MASHINA",
-        hint: "4ta g'ildirakdan iborat transport vositasi"
+        hint: "4ta g'ildirakdan iborat transport vositasi",
     },
     {
         word: "TARIX",
-        hint: "Qadimiy zamonni qadimiy artifaktlar va yozuv manbaalari orqali o'rganuvchi fan"
+        hint: "Qadimiy zamonni qadimiy artifaktlar va yozuv manbaalari orqali o'rganuvchi fan",
     },
     {
         word: "XARITA",
-        hint: "Yer yuzining qog'ozdagi tasviri"
+        hint: "Yer yuzining qog'ozdagi tasviri",
     },
     {
         word: "QURILMA",
-        hint: "Muayyan bir vazifani bajarish uchun ishlab chiqilgan buyum"
+        hint: "Muayyan bir vazifani bajarish uchun ishlab chiqilgan buyum",
     },
     {
         word: "INSON",
-        hint: "Odam so'zining sinonimi"
+        hint: "Odam so'zining sinonimi",
     },
     {
         word: "KIT",
-        hint: "Dengiz hayvonlaridan biri bo'lib dunyodagi eng katta sut emizuvchi."
+        hint: "Dengiz hayvonlaridan biri bo'lib dunyodagi eng katta sut emizuvchi.",
     },
     {
         word: "QUSH",
-        hint: "Uchuvchi hayvon"
+        hint: "Uchuvchi hayvon",
     },
     {
         word: "MAYSA",
-        hint: "Yashil o'simlik"
+        hint: "Yashil o'simlik",
     },
     {
         word: "TIL",
-        hint: "Nutq vositasi"
+        hint: "Nutq vositasi",
     },
     {
         word: "RAQS",
-        hint: "Musiqa ostida harakat"
+        hint: "Musiqa ostida harakat",
     },
     {
         word: "SAMARQAND",
-        hint: "Yurtimizda joylashgan qadimiy shahar"
+        hint: "Yurtimizda joylashgan qadimiy shahar",
     },
     {
         word: "ANDIJON",
-        hint: "Yurtimizdagi viloyatlardan biri"
+        hint: "Yurtimizdagi viloyatlardan biri",
     },
     {
         word: "TOSHKENT",
-        hint: "O'zekiston Poytaxti"
+        hint: "O'zekiston Poytaxti",
     },
     {
         word: "PARIJ",
-        hint: "Fransiya poytaxti"
+        hint: "Fransiya poytaxti",
     },
     {
         word: "YETAKCHI",
-        hint: "Lider so'zining sinonimi"
+        hint: "Lider so'zining sinonimi",
     },
     {
         word: "KUCH",
-        hint: "Ta'sir qiluvchi, mehnat bajaruvchi xususiyat"
+        hint: "Ta'sir qiluvchi, mehnat bajaruvchi xususiyat",
     },
     {
         word: "YURISH",
-        hint: "Oyoqlar orqali sekin xarakatlanish"
+        hint: "Oyoqlar orqali sekin xarakatlanish",
     },
     {
         word: "YASMIN",
-        hint: "O'simlik turi"
+        hint: "O'simlik turi",
     },
     {
         word: "YOMON",
-        hint: "Salbiy sifatlarga ega ma'nosini anglatuvchi so'z"
+        hint: "Salbiy sifatlarga ega ma'nosini anglatuvchi so'z",
     },
     {
         word: "MAKTAB",
-        hint: "O'rta yoshdagi bolalar uchuin ta'lim beruvchi muassasa"
+        hint: "O'rta yoshdagi bolalar uchuin ta'lim beruvchi muassasa",
     },
     {
         word: "ILM",
-        hint: "Bilim so'zining sinonimi."
+        hint: "Bilim so'zining sinonimi.",
     },
     {
         word: "XURSAND",
-        hint: "Baxtiyor so'zining sinonimi"
+        hint: "Baxtiyor so'zining sinonimi",
     },
     {
         word: "SIZ",
-        hint: "Boshqa bir insonga odob bilan murojaat qilish uchun so'z."
+        hint: "Boshqa bir insonga odob bilan murojaat qilish uchun so'z.",
     },
     {
         word: "BUYUK",
-        hint: "Yuqori maqom, katta"
+        hint: "Yuqori maqom, katta",
     },
     {
         word: "KICHIK",
-        hint: "Past darajada"
+        hint: "Past darajada",
     },
     {
         word: "MATN",
-        hint: "Yozuvli axborot shakli"
+        hint: "Yozuvli axborot shakli",
     },
     {
         word: "SINF",
-        hint: "Ta'lim xonasi"
+        hint: "Ta'lim xonasi",
     },
     {
         word: "XARAKAT",
-        hint: "Faoliyat"
+        hint: "Faoliyat",
     },
     {
         word: "MAQSAD",
-        hint: "Ehtiyojdan kelib chiquvchi, inson o'z oldiga qo'yuvchi aniq bir istak"
+        hint: "Ehtiyojdan kelib chiquvchi, inson o'z oldiga qo'yuvchi aniq bir istak",
     },
     {
         word: "YANGI",
-        hint: "Hozirgi"
+        hint: "Hozirgi",
     },
     {
         word: "ERTALAB",
-        hint: "Tongi vaqt"
+        hint: "Tongi vaqt",
     },
     {
         word: "MANZARA",
-        hint: "Tabiat tasviri"
+        hint: "Tabiat tasviri",
     },
     {
         word: "RAHMAT",
-        hint: "Minnatdorchilik ifodasi"
+        hint: "Minnatdorchilik ifodasi",
     },
     {
         word: "JUMA",
-        hint: "Haftaning bir kuni"
+        hint: "Haftaning bir kuni",
     },
     {
         word: "XIZMAT",
-        hint: "Bir inson ikkinchisi uchun bajarib berishi mumkin bo'lgan foydali ish"
+        hint: "Bir inson ikkinchisi uchun bajarib berishi mumkin bo'lgan foydali ish",
     },
     {
         word: "MASHXUR",
-        hint: "Taniqli so'zining sinonimi"
+        hint: "Taniqli so'zining sinonimi",
     },
     {
         word: "YUPITER",
-        hint: "Quyosh tizimidagi sayyora"
+        hint: "Quyosh tizimidagi sayyora",
     },
     {
         word: "MAKTUB",
-        hint: "Yozuv orqali aloqa vositasi"
+        hint: "Yozuv orqali aloqa vositasi",
     },
     {
         word: "BAXT",
-        hint: "Yuqori darajada xursandlik holati"
+        hint: "Yuqori darajada xursandlik holati",
     },
     {
         word: "SHAMOL",
-        hint: "Tabiat hodisalaridan biri"
+        hint: "Tabiat hodisalaridan biri",
     },
     {
         word: "TABIAT",
-        hint: "Yer va undagi hayot"
+        hint: "Yer va undagi hayot",
     },
     {
         word: "SAVOL",
-        hint: "Bilishni xohlaydigan talab"
+        hint: "Bilishni xohlaydigan talab",
     },
     {
         word: "TAVSIYA",
-        hint: "Taqdim etilgan maslahat"
+        hint: "Taqdim etilgan maslahat",
     },
     {
         word: "RAQAM",
-        hint: "Matematik belgilar"
+        hint: "Matematik belgilar",
     },
     {
         word: "XIVA",
-        hint: "Mamlakatimizdagi qadimiy shaharlardan biri"
+        hint: "Mamlakatimizdagi qadimiy shaharlardan biri",
     },
     {
         word: "MASAL",
-        hint: "Saboqli hikoya"
+        hint: "Saboqli hikoya",
     },
     {
         word: "DAFNA",
-        hint: "O'simlik turi"
+        hint: "O'simlik turi",
     },
     {
         word: "SADAQA",
-        hint: "Xayriyaning bir turi"
+        hint: "Xayriyaning bir turi",
     },
     {
         word: "HAMMA",
-        hint: "Barcha so'zininhg sinonimi"
+        hint: "Barcha so'zininhg sinonimi",
     },
     {
         word: "YUZ",
-        hint: "Eng kichik 3 xonali son"
+        hint: "Eng kichik 3 xonali son",
     },
     {
         word: "SAHNA",
-        hint: "Tomosha uchun maxsus joy"
+        hint: "Tomosha uchun maxsus joy",
     },
     {
         word: "YUK",
-        hint: "Og'ir narsa"
+        hint: "Og'ir narsa",
     },
     {
         word: "MALAKA",
-        hint: "O'rganilgan mahorat"
+        hint: "O'rganilgan mahorat",
     },
     {
         word: "MASALA",
-        hint: "Ehtiyojli yechim"
+        hint: "Ehtiyojli yechim",
     },
     {
         word: "XABAR",
-        hint: "Axborot turi"
+        hint: "Axborot turi",
     },
     {
         word: "XIRURG",
-        hint: "Amaliyot qiluvchi shifokor"
+        hint: "Amaliyot qiluvchi shifokor",
     },
     {
         word: "YASAMA",
-        hint: "Yaratilgan narsa"
+        hint: "Yaratilgan narsa",
     },
     {
         word: "TULPOR",
-        hint: "Ot so'zining sinonimii"
+        hint: "Ot so'zining sinonimii",
     },
     {
         word: "KURASH",
-        hint: "Milliy sport turi"
+        hint: "Milliy sport turi",
     },
     {
         word: "UNIVERSITET",
-        hint: "Katta yoshli insonlar uchun ta'lim muossasasi"
-    }
+        hint: "Katta yoshli insonlar uchun ta'lim muossasasi",
+    },
 ];
